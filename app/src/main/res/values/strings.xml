@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Mood Board</string>
+    <string name="mood_question">How is your mood Today?</string>
+    <string name="feeling_question">Share whatever you are feeling right now?</string>
+</resources>

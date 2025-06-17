@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F6F3EA">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        android:text="@string/mood_question"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-medium">
+
+    </TextView>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:rowCount="3"
+        android:columnCount="2"
+        android:padding="30dp"
+        android:backgroundTint="#F5F5DC">
+
+        <ImageButton
+            android:id="@+id/happy"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/happy"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/sad"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/sad"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/tired"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/tired"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/boss"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/boss"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/goodmood"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/goodmood"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+        <ImageButton
+            android:id="@+id/angry"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:src="@drawable/angry"
+            android:background="@drawable/shape"
+            android:layout_margin="15dp">
+
+        </ImageButton>
+
+    </GridLayout>
+
+
+</LinearLayout>
+
