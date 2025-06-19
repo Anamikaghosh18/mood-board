@@ -23,20 +23,25 @@
             android:textStyle="bold" />
 
 
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginTop="30dp" />
+
+
         <EditText
             android:id="@+id/happyNote"
             android:layout_width="match_parent"
             android:layout_height="150dp"
             android:layout_marginBottom="24dp"
             android:background="@android:drawable/edit_text"
+            android:fontFamily="sans-serif"
             android:gravity="top"
             android:hint="Write about your happy day..."
             android:inputType="textMultiLine"
             android:padding="12dp"
             android:textColor="#282727"
-            android:fontFamily="sans-serif"
             android:textSize="16sp" />
-
 
         <Button
             android:id="@+id/saveHappy"
@@ -47,11 +52,6 @@
             android:backgroundTint="#00796B"
             android:text="Save Mood"
             android:textColor="#FFFFFF" />
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:layout_marginTop="30dp" />
 
 
     </LinearLayout>

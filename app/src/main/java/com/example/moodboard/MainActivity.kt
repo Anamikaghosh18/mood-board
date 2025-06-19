@@ -18,5 +18,10 @@ class MainActivity : AppCompatActivity() {
             val happyView = Intent(this, happy::class.java)
             startActivity(happyView)
         }
+        val emojiSad = findViewById<ImageButton>(R.id.sad)
+        emojiSad.setOnClickListener{
+            val sadView = Intent(this,sad::class.java)
+            startActivity(sadView)
+        }
     }
 }
